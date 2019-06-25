@@ -130,9 +130,7 @@ through the variable `params`.
 To continue the medicine example, the hash looks something like this:
 
 ```ruby
-params = {
-  :id => 1
-}
+params = {:id => 1}
 ```
 
 The key of the hash is determined by the symbol in the url (`:id`), and the
